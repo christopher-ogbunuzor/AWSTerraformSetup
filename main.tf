@@ -90,6 +90,6 @@ resource "aws_dynamodb_table" "dynamodb-terraform-state-lock_oregon" {
  
   attribute {
     name = "LockID"
-    type = "S"
+    type = "S" 
   }
 }
